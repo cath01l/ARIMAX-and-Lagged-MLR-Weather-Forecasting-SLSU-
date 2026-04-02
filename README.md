@@ -19,7 +19,7 @@ This research serves as a partial requirement for the following courses:
 ## The Research Team
 This study is a collaborative effort by a six-member research group.
 
-* **[Sieg Gabriel Sola] (Technical Lead):** Responsible for the mathematical framework, Python implementation, ARIMAX architecture, and statistical diagnostics (PCA, PACF, Hotelling’s $T^2$).
+* **[Sieg Gabriel Sola](www.linkedin.com/in/sieg-gabriel-sola) (Technical Lead):** Responsible for the mathematical framework, Python implementation, ARIMAX architecture, and statistical diagnostics (PCA, PACF, Hotelling’s $T^2$).
 * **Co-Authors:** [Christian Mark Regencia], [Dan Lloyd Otico], [Jerica Sabido], [Jorgia Sabido], [Keziah Nicole Lingahan] (Literature Review, Theoretical Framework, and Documentation).
 
 ---
