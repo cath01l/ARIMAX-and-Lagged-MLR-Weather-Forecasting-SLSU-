@@ -34,11 +34,5 @@ This project employs a **Two-Tier Architecture** to forecast 14 days of Manilaâ€
 
 ---
 
-## Key Results
-* **ARIMAX** demonstrated statistically significant superiority ($p < 0.05$) in high-volatility variables like **Wind Speed** and **Humidity** during the Habagat season.
-* While the **MLR** passed the multivariate **Hotellingâ€™s $T^2$ test**, it failed to capture the dynamic atmospheric spikes that the ARIMAX successfully tracked.
-
----
-
 ## Acknowledgements
 Special thanks to the faculty of the **SLSU Department of Mathematics** for the mentorship and theoretical foundations provided in MAT25 and MAT26.
