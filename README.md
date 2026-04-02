@@ -16,7 +16,7 @@ This research serves as a partial requirement for the following courses:
 
 ---
 
-## The Research Team
+## Research Team
 This study is a collaborative effort by a six-member research group.
 
 * **[Sieg Gabriel Sola](https://www.linkedin.com/in/sieg-gabriel-sola) (Technical Lead):** Responsible for the mathematical framework, Python implementation, ARIMAX architecture, and statistical diagnostics (PCA, PACF, Hotelling’s $T^2$).
@@ -24,7 +24,7 @@ This study is a collaborative effort by a six-member research group.
 
 ---
 
-## Methodology Highlight
+## Methodology
 This project employs a **Two-Tier Architecture** to forecast 14 days of Manila’s weather:
 
 1. **Dimensionality Reduction (PCA):** 12 meteorological variables were transformed into **7 Principal Components**, capturing >90% of atmospheric variance.
