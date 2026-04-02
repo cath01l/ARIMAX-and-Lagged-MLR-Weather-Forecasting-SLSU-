@@ -4,10 +4,10 @@
 ---
 
 ## Academic Context
-**Institution:** Southern Luzon State University
-**College:** College of Arts and Sciences
-**Degree:** Bachelor of Science in Mathematics
-**Date:** April 2026
+**Institution:** Southern Luzon State University <br>
+**College:** College of Arts and Sciences <br>
+**Degree:** Bachelor of Science in Mathematics <br>
+**Date:** April 2026 <br>
 
 ### **Course Compliance**
 This research serves as a partial requirement for the following courses:
