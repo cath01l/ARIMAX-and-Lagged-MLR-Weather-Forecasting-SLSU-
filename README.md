@@ -33,6 +33,3 @@ This project employs a **Two-Tier Architecture** to forecast 14 days of Manilaâ€
     * **Lagged MLR:** A deterministic baseline using "Direct Training" to eliminate the error snowball effect.
 
 ---
-
-## Acknowledgements
-Special thanks to the faculty of the **SLSU Department of Mathematics** for the mentorship and theoretical foundations provided in MAT25 and MAT26.
