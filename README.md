@@ -43,18 +43,18 @@ The study evaluated the $14$-day predictive accuracy across four distinct season
 
 | Season | Target Variable | ARIMAX RMSE | LMLR RMSE | DM p-value | Verdict |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| **Habagat** | Temperature | 0.5492 | 0.5935 | 0.63697 | Tie |
-| **Habagat** | Humidity | 1.4973 | 4.0254 | 0.01704 | **ARIMAX** |
-| **Habagat** | Wind Speed | 0.8045 | 5.7275 | 0.00002 | **ARIMAX** |
-| **Transition** | Temperature | 0.2937 | 0.7325 | 0.00092 | **ARIMAX** |
-| **Transition** | Humidity | 2.5179 | 3.0399 | 0.49152 | Tie |
-| **Transition** | Wind Speed | 1.8051 | 7.5052 | 0.12280 | Tie |
-| **Amihan** | Temperature | 0.4519 | 1.1461 | 0.00621 | **ARIMAX** |
-| **Amihan** | Humidity | 5.4028 | 12.0550 | 0.02444 | **ARIMAX** |
-| **Amihan** | Wind Speed | 0.8284 | 1.9375 | 0.00690 | **ARIMAX** |
-| **Dry Season** | Temperature | 0.7519 | 1.3126 | 0.07309 | Tie |
-| **Dry Season** | Humidity | 3.9352 | 5.6180 | 0.24121 | Tie |
-| **Dry Season** | Wind Speed | 1.7485 | 2.3590 | 0.10653 | Tie |
+| Habagat | Temperature | 0.5492 | 0.5935 | 0.63697 | Tie |
+| Habagat | Humidity | 1.4973 | 4.0254 | 0.01704 | **ARIMAX** |
+| Habagat | Wind Speed | 0.8045 | 5.7275 | 0.00002 | **ARIMAX** |
+| Transition | Temperature | 0.2937 | 0.7325 | 0.00092 | **ARIMAX** |
+| Transition | Humidity | 2.5179 | 3.0399 | 0.49152 | Tie |
+| Transition | Wind Speed | 1.8051 | 7.5052 | 0.12280 | Tie |
+| Amihan | Temperature | 0.4519 | 1.1461 | 0.00621 | **ARIMAX** |
+| Amihan | Humidity | 5.4028 | 12.0550 | 0.02444 | **ARIMAX** |
+| Amihan | Wind Speed | 0.8284 | 1.9375 | 0.00690 | **ARIMAX** |
+| Dry Season | Temperature | 0.7519 | 1.3126 | 0.07309 | Tie |
+| Dry Season | Humidity | 3.9352 | 5.6180 | 0.24121 | Tie |
+| Dry Season | Wind Speed | 1.7485 | 2.3590 | 0.10653 | Tie |
 
 ![ARIMAX vs LMLR Predictions Lineplots](plots/ARIMAX%20vs%20LMLR%20Predictions%20Lineplots.png)
 
