@@ -20,10 +20,13 @@ This research compares a recursive stochastic approach (ARIMAX) against a direct
 
 3. **Seasonal Partitioning:**
 To account for the distinct weather patterns in the Philippines, the data is partitioned into four folds:
-* **Habagat**
-* **Transition**
-* **Amihan**
-* **Dry Season**
+
+| Fold | Season | Training Range | Testing Range | Training Rows |
+| :--- | :--- | :--- | :--- | :---: |
+| **1** | Habagat | Jan 2023 – Aug 2025 | Sep 01 – Sep 14, 2025 | 973 |
+| **2** | Transition | Jan 2023 – Oct 2025 | Nov 01 – Nov 14, 2025 | 1034 |
+| **3** | Amihan | Jan 2023 – Jan 2026 | Feb 01 – Feb 14, 2026 | 1126 |
+| **4** | Dry Season | Jan 2023 – Feb 2026 | Mar 01 – Mar 14, 2026 | 1154 |
 
 4. **Evaluation and Validation:**
 * **Multivariate Validation:** Hotelling's $T^2$ test to detect mean vector drift in $14$-day forecasts.
