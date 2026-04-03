@@ -1,4 +1,4 @@
-# City of Manila Seasonal Weather Forecasting
+# City of Manila Seasonal Weather Forecasting: A Comparative Study
 ### Evaluating 14-Day Ahead Weather Predictions in the City of Manila: A Comparative Multivariate Study Using ARIMAX and Lagged Multiple Linear Regression
 
 ---
