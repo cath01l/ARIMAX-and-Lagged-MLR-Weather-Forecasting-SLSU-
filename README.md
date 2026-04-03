@@ -10,13 +10,13 @@ This research compares a recursive stochastic approach (ARIMAX) against a direct
 
 ## ⚙️ Methodology and Framework
 1. **Preprocessing and Dimensionality Reduction:**
-* **Data Source:** 15 meteorological parameters were sourced from the Open-Meteo API.
+* **Data Source:** $15$ meteorological parameters were sourced from the Open-Meteo API.
 * **Stationarity:** All features were subjected to Augmented Dickey-Fuller Testing and non-staitonary variables (Dew Point) were first-order differenced.
-* **PCA:** The 12 predictors were reduced to 7 Principal Components, retaining 93% of the explained variance.
+* **PCA:** The $12$ predictors were reduced to $7$ Principal Components, retaining $93$% of the explained variance.
 
 2. **Forecasting Models:**
 * **ARIMAX:** Utilizes auto_arima for optimal (p,d,q) selection.
-* **Direct Multi-Step LMLR:** A high-dimensional framework using 168 independent linear regressions. Each model is trained to map a 65-predictor feature (7 PC lags + 3 label lags) directly to a specific lead time ($h=1,2,3,...,14$), to avoid recursive error propagation.
+* **Direct Multi-Step LMLR:** A high-dimensional framework using $168$ independent linear regressions. Each model is trained to map a 65-predictor feature ($7$ PC lags + $3$ label lags) directly to a specific lead time ($h=1,2,3,...,14$), to avoid recursive error propagation.
 
 3. **Seasonal Partitioning:**
 To account for the distinct weather patterns in the Philippines, the data is partitioned into four folds:
@@ -26,15 +26,15 @@ To account for the distinct weather patterns in the Philippines, the data is par
 * **Dry Season**
 
 4. **Evaluation and Validation:**
-* **Multivariate Validation:** Hotelling's $T^2$ test to detect mean vector drift in 14-day forecasts.
+* **Multivariate Validation:** Hotelling's $T^2$ test to detect mean vector drift in $14$-day forecasts.
 * **Statistical Superiority:** Diebold-Mariano Test to identify if the ARIMAX's stochastic advantage is statistically significant over LMLR.
-* **Accuracy Metrics:** RMSE and MAE across all 14-day predictions.
+* **Accuracy Metrics:** RMSE and MAE across all $14$-day predictions.
 
 ---
 
 ## 📊 Summary of Results
 
-The study evaluated the 14-day predictive accuracy across four distinct seasonal folds. The **ARIMAX** model was compared against the **Direct Multi-Step LMLR**.
+The study evaluated the $14$-day predictive accuracy across four distinct seasonal folds. The **ARIMAX** model was compared against the **Direct Multi-Step LMLR**.
 
 | Season | Target Variable | ARIMAX RMSE | LMLR RMSE | DM p-value | Verdict |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -54,7 +54,7 @@ The study evaluated the 14-day predictive accuracy across four distinct seasonal
 ![ARIMAX vs LMLR Predictions Lineplots](plots/ARIMAX%20vs%20LMLR%20Predictions%20Lineplots.png)
 
 ### Summary of Findings
-The **LMLR** model failed to capture the volatility of the seasons (although Hotelling's $T^2$ validated the mean vector of **LMLR** predictions at $\alpha=0.01$). The DM-Test ($\alpha=0.05$) revealed that the **ARIMAX** framework significantly outperformed the LMLR in 6 out of the 12 scenarios while maintaining statistical parity of the remaining scenarios.
+The **LMLR** model failed to capture the volatility of the seasons (although Hotelling's $T^2$ validated the mean vector of **LMLR** predictions at $\alpha=0.01$). The DM-Test ($\alpha=0.05$) revealed that the **ARIMAX** framework significantly outperformed the LMLR in 6 out of the $12$ scenarios while maintaining statistical parity of the remaining scenarios.
 
 ---
 
