@@ -16,7 +16,7 @@ This research compares a recursive stochastic approach (ARIMAX) against a direct
 
 2. **Forecasting Models:**
 * **ARIMAX:** Utilizes auto_arima for optimal (p,d,q) selection.
-* **Direct Multi-Step LMLR:** A high-dimensional framework using $168$ independent linear regressions. Each model is trained to map a 65-predictor feature ($7$ PC lags + $3$ label lags) directly to a specific lead time ($h=1,2,3,...,14$), to avoid recursive error propagation.
+* **Direct Multi-Step LMLR:** A high-dimensional framework using $168$ independent linear regressions. Each model is trained to map a 65-predictor feature ($7$ PC lags + $3$ label lags determined from PACF plots) directly to a specific lead time ($h=1,2,3,...,14$), to avoid recursive error propagation.
 
 3. **Seasonal Partitioning:**
 To account for the distinct weather patterns in the Philippines, the data is partitioned into four folds:
