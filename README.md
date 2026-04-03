@@ -51,6 +51,11 @@ The study evaluated the 14-day predictive accuracy across four distinct seasonal
 | **Dry Season** | Humidity | 3.9352 | 5.6180 | 0.24121 | Tie |
 | **Dry Season** | Wind Speed | 1.7485 | 2.3590 | 0.10653 | Tie |
 
+### **Statistical Validation**
+The **Diebold-Mariano Test** was utilized to ensure the loss differential between models was statistically significant.
+
+![ARIMAX vs LMLR Predictions Lineplots](plots/ARIMAX vs LMLR Predictions Lineplots.png)
+
 ---
 
 ## Academic Context
