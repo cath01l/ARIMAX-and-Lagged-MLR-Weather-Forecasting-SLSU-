@@ -10,8 +10,8 @@ This research compares a recursive stochastic approach (ARIMAX) against a direct
 
 ## ⚙️ Methodology and Framework
 1. **Preprocessing and Dimensionality Reduction:**
-* **Data Source:** 15 meteorological parameters sourced from the Open-Meteo API.
-* **Stationarity:** All features subjected to Augmented Dickey-Fuller Testing and non-staionary variables (Dew Point) were first-order differenced.
+* **Data Source:** 15 meteorological parameters were sourced from the Open-Meteo API.
+* **Stationarity:** All features were subjected to Augmented Dickey-Fuller Testing and non-staitonary variables (Dew Point) were first-order differenced.
 * **PCA:** The 12 predictors were reduced to 7 Principal Components, retaining 93% of the explained variance.
 
 2. **Forecasting Models:**
