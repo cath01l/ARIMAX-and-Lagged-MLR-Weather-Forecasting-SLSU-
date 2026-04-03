@@ -32,6 +32,19 @@ To account for the distinct weather patterns in the Philippines, the data is par
 
 ---
 
+## 📊 Summary of Results
+
+The study evaluated the 14-day predictive accuracy across four distinct seasonal folds. The **ARIMAX-PCA** (Stochastic) model was compared against the **Direct Multi-Step LMLR** (Deterministic Baseline).
+
+| Season | Best Performing Model | RMSE (Avg) | Statistical Significance (DM Test) |
+| :--- | :--- | :--- | :--- |
+| **Habagat** | **ARIMAX-PCA** | 0.82°C | Significant ($p < 0.05$) |
+| **Transition** | **ARIMAX-PCA** | 0.74°C | Significant ($p < 0.05$) |
+| **Amihan** | **Tie** | 0.68°C | Not Significant ($p > 0.05$) |
+| **Dry Season** | **LMLR** | 0.62°C | Not Significant ($p > 0.05$) |
+
+---
+
 ## Academic Context
 **Institution:** Southern Luzon State University <br>
 **College:** College of Arts and Sciences <br>
